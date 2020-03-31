@@ -1,0 +1,43 @@
+<HTML>
+
+<HEAD>
+<TITLE>oops.co.in: Login</TITLE>
+</HEAD>
+
+<BODY background="/images/back.gif" leftMargin="0" topMargin="0">
+
+<FORM action="/cgi-bin/enlogin.py" method="post">
+   <TABLE width="100%">
+      <TR>
+         <TD width="100" align="center" valign="top">
+         <IMG border="0" height="79" src="/images/logo.gif" width="71"></TD>
+         <TD>
+         <TABLE border="0" width="100%">
+            <TR bgColor="#ebef5a">
+               <TD colSpan="2"><FONT face="Arial" size="2">&nbsp;</FONT><FONT face="Arial">
+               <B>Access your email account from here:</B></FONT> </TD>
+            </TR>
+            <TR>
+               <TD align="right" vAlign="top" width="100"></TD>
+            </TR>
+            <TR>
+               <TD align="right" vAlign="top" width="100">
+               <FONT face="Arial" size="2">e-mail Address:</FONT></TD>
+	       <TD><INPUT name="login">@oops.co.in</TD>
+            </TR>
+            <TR>
+               <TD align="right" vAlign="top" width="100">
+               <FONT face="Arial" size="2">Password:</FONT> </TD>
+               <TD><INPUT name="passwd" size="11" type="password">
+               <INPUT name="LoginBtn" type="submit" value="Login"> </TD>
+            </TR>
+         </TABLE>
+         </TD>
+      </TR>
+   </TABLE>
+   <INPUT name="domain" type="hidden" value="oops.co.in">
+</FORM>
+<SCRIPT language="javascript">document.forms[0].login.focus();</SCRIPT>
+</BODY>
+
+</HTML>
